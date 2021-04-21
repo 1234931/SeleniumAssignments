@@ -11,8 +11,16 @@ public class ChangeOddIndexToUpperCase {
 	 * String test = "changeme";
 	 
 	 * a) Convert the String to character array
+	 char[] ch=test.toCharArray();
 	 
 	 * b) Traverse through each character (using loop)
+	 for(inti=0;i<ch.length;i++)
+	 {
+	 if(i%2!=0)
+	 String t=""+ch[i];
+	 System.out.println(+ toUpperCase);
+	 }
+	 }
 	 
 	 * c)find the odd index within the loop (use mod operator)
 	 
